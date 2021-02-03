@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="keywords" content="HTML,CSS,Javascript,Jquery">
+    <meta name="description" content="Free Web tutorials for HTML and CSS">
+    <meta name="revised" content="MartinVal9 3/2/2021">
+    <meta charset=”author” content="TutorialBrain">
+    <title>Curso práctico de Git y Github desde cero en vídeo</title>
+    <link rel="shortcut icon" href="img/chip.svg" type="image/x-icon">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>TechNews</h1>
+        <i class="fa fa-bars" aria-hidden="true"></i></a>
+        <a href="/FN.html" translate="yes" title="Inicio" >Inicio</a>
+        <a href="https://github.com/martinval9" translate="yes" title="¿Quienes Somos?">¿Quienes Somos?</a>
+        <a href="https://github.com/martinval9" translate="yes"title="Contacto">Contacto</a>
+        <a href="ddd" translate="yes" title="Blog">Blog</a>
+        <a href="/FN.html" translate="yes" title="Mas">Mas </a>
+    </nav>
+    <br><br><br><br>
+    <article>
+        <div class="content">
+            <div class="pad">
+                <h1>Curso práctico de Git y Github desde cero en vídeo</h1>
+
+                <i class="fa fa-user" aria-hidden="true"></i>
+                Publicado por Oscar Gonzalez en Programación el 22/01/2020
+                <br>
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true"></i>
+                <i class="fa fa-pinterest" aria-hidden="true"></i>
+                <br>
+            </div>
+            <div class="image">
+                <img src="img/GitLab-GitHub-bitbucket.jpg" alt="Imagen de GitHub">
+                <br>
+                <section>
+
+                    <p>Puede que te suene eso de Git o control de versiones con Git pero no sabes muy bien de qué se
+                        trata.
+                        Git es una herramienta de control de versiones y que sirve principalmente para controlar de
+                        forma
+                        eficiente y ordenada los cambios que realizamos a nuestro código fuente. Puede que al principio
+                        sea
+                        un poco difícil de entender pero en su esencia más básica es bastante sencillo y para comenzar a
+                        utilizarlo tan solo debes conocer unos pocos comandos, aunque luego te puedes complicar todo lo
+                        que
+                        quieras. Te dejo a continuación un vídeo tutorial de Git desde cero comenzando por su
+                        instalación en
+                        tu sistema de desarrollo, así como su utilización con la plataforma online Github.</p>
+
+                    <br>
+                    <h2>Por qué debo utilizar Git?</h2>
+
+                    <p>Si programas a menudo y todavía no utilizas Git, hay una probabilidad bastante grande de que por
+                        lo
+                        general tu código sea poco ordenado y lo que es peor, que no tengas demasiado control del mismo.
+                        Podrías decirme cual fue el último cambio que hiciste a un fichero y en qué línea? Seguramente
+                        no o
+                        por lo menos, no con seguridad. Ahora imagínate que quieres hacer una prueba de un concepto
+                        nuevo en
+                        alguna parte de tu código, pero sin decidir todavía si al final lo dejarás implementado o no. Es
+                        muy
+                        probable que empieces a renombrar algunos ficheros a modo de "backup" (el clásico fichero_ok.ino
+                        o
+                        fichero_elbueno.ino acompañado de su amigo el fichero_elbuenodeverdadok.ino) o lo que es peor,
+                        copiar carpetas enteras a otro directorio para trabajar... Eso es totalmente insostenible,
+                        desordenado y poco eficiente.</p>
+
+                    <p>Simplificándolo muchísimo, digamos que Git te permite añadir un pequeño comentario a cada cambio
+                        que
+                        hagas en tu código. Por ejemplo, empiezas a programar tu código Arduino con un sensor y cuando
+                        tienes listas un par de funciones para leer el valor del sensor y mostrarlo por la terminal,
+                        puedes
+                        realizar un "Commit" indicando como comentario "Código de lectura del sensor". No solo quedará
+                        el
+                        comentario registrado, sino que se marcará exactamente todas las líneas afectadas. Luego por
+                        supuesto seguirás con lo tuyo.</p>
+
+                    <br>
+                    <h2>Vete por las ramas (Git Branch)</h2>
+
+                    <p>Las ramas en Git son extremadamente útiles y permiten crear como su fueran universos paralelos
+                        sobre
+                        tu código sin afectar a sus otras ramas. Piensa que tu código existe en forma de árbol que tiene
+                        ramas. Hay una rama principal que normalmente se llama Master y puedes trabajar ahí
+                        indefinidamente.
+                        Pero si en algún momento quieres probar una cosa nueva de la que no estas seguro si quedará,
+                        puedes
+                        crear una nueva rama, por ejemplo "prueba 1" (para eso se utiliza el comando checkout). En ese
+                        momento tienes una bifurcación que conserva el código que tenías actualmente, pero a partir de
+                        ahora
+                        los cambios que hagas se aplicarán solamente sobre la nueva rama.</p>
+                    <br>
+                    <p>En éste momento pueden pasar dos cosas: Que lo que hiciste no te convence por alguna oscura razón
+                        o
+                        bien que lo quieres dejar implementado. En el primer caso, simplemente descartas la rama
+                        borrándola
+                        y volverías a la rama principal (Master) a seguir con lo tuyo pero justo en el punto en lo que
+                        lo
+                        has dejado. Recuerda aquello de copiar mil carpetas y ficheros para volver atrás, pues con esto
+                        ya
+                        no es necesario, Git se encarga de dejar el directorio de trabajo tal y como estaba en ese
+                        preciso
+                        momento donde te fuiste a otra rama.</p>
+                    <br>
+                    <p>La segunda opción, es que el nuevo código que escribiste en una nueva rama quieras dejarlo de
+                        forma
+                        permanente y para eso se utiliza el comando Merge. Lo que hace básicamente es fusionar los
+                        cambios
+                        de la nueva rama con Master (bueno, puedes fusionar cualquier rama realmente, no solo Master).
+                        Esto
+                        es especialmente interesante cuando colaboras con otras personas. Los otros miembros pueden
+                        crear
+                        diferentes ramas con mejoras o funcionalidades nuevas y en un momento descartarlas o fusionarlas
+                        con
+                        el proyecto o rama principal.</p>
+                    <br>
+                    <p>Como has podido comprobar, Git funciona con comandos de texto que hay que escribir en una
+                        consola.
+                        Hay mucha gente a la que no le gusta mucho eso de escribir comandos (que siendo realistas, es
+                        muy
+                        cómodo creo yo y a mi me encanta, pero esto de los gustos es como los culos, cada uno tiene el
+                        suyo). Pero también existe entornos visuales con ventanitas y opciones por todos lados que
+                        pretenden
+                        facilitar la tarea con Git y no tener que recordar comandos. Uno que creo que está muy bien par
+                        alo
+                        poco que lo uso es Sourcetree de Atlassian y también es gratuito.</p>
+                    <br>
+                    <h2>Servidor remote de Git (Github)</h2>
+
+                    <p>Existen actualmente unos pocos servicios que ofrezcan alojamiento de repositorios de Git, pero el
+                        que lo peta en la actualidad y recientemente comprado por Microsoft es Github. Tiene una
+                        interfaz
+                        bastante ligera y te deja alojar tantos repositorios como quieras siempre y cuando sean
+                        públicos.</p>
+                    <br>
+                    <h2>Curso de Git desde cero</h2>
+
+                    <p>Ya no tienes excusa para no probar y utilizar un control de versiones con Git en tus proyectos,
+                        pero
+                        si todavía tienes dudas, aquí tienes un curso completo de Git desde cero que te lo explicará
+                        todo
+                        con mucho más detalle.</p>
+                    <br>
+                    <a href="https://www.youtube.com/watch?v=HiXLkL42tMU&feature=youtu.be" target="_blank"
+                        rel="noopener noreferrer"><u>Ver Curso de Git desde cero</u></a>
+                </section>
+            </div>
+        </div>
+    </article>
+    <!--Registro-->
+    <form action="" method="post" translate="yes">
+        <div class="error" translate="yes">
+            <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+
+            Servidor no disponible
+        </div>
+        <h2>Registrate</h2>
+        <br>
+        <input type="text" placeholder=" Nombre" title="Nombre" required>
+        <br><br>
+        <input type="text" placeholder=" Apellido" title="Apellido" required>
+        <br><br>
+        <input type="email" name="Email" id="" placeholder=" Email" title="Email" required>
+        <br><br>
+        <input type="password" placeholder=" Contraseña" title="Contraseña" required min="8" max="16">
+        <br><br>
+        <input type="date" name="Edad" id="Edad" title="Edad" required min="13" max="90">
+        <br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar" translate="yes">
+        <br><br>
+    </form>
+    <hr>
+    <!--Copyright-->
+    <footer translate="yes">
+        <br>
+        <h2>Hecho por Martinval9</h2>
+        <br>
+        Copyright (c) 2021 Company Name
+        All Rights Reserved
+        This product is protected by copyright and distributed under
+        licenses restricting copying, distribution, and decompilation.
+        <br><br>
+        <a href="fff" target="_blank" rel="noopener noreferrer">
+            <img src="img/facebook.svg" alt="Imagen de Facebook" width="50px" title="Facebook" translate="yes"></a>
+
+        <a href="fff" target="_blank" rel="noopener noreferrer">
+            <img src="img/Twitter.svg" alt="Imagen de Twitter" width="50px" title="Twitter" translate="yes"></a>
+
+        <a href="https://github.com/martinval9" target="_blank" rel="noopener noreferrer">
+            <img src="img/github.svg" alt="Imagen de GitHub" width="50px" title="GitHub" translate="yes"></a>
+
+        <a href="javascript:window.print()" translate="yes" title="Imprimir" rel="noopener noreferrer">
+            <input type="image" src="img/impresora.svg" alt="Imagen de Impresora" width="50px" height="50px">
+        </a>
+
+
+        <!--Creditos-->
+        <div class="Credits" translate="yes">
+            <br>
+            <h2>Creditos</h2>
+            <div>Iconos diseñados por Icongeek26 from <a
+                    href="https://www.flaticon.es/" title="Flaticon" target="_blank"><u> www.flaticon.es</u></a></div>
+
+            <div>Iconos diseñados por 
+                     Pixel perfect from <a href="https://www.flaticon.es/" title="Flaticon" target="_blank"
+                    rel="noopener noreferrer"><u> www.flaticon.es</u></a></div>
+
+            <div>Iconos diseñados por 
+                    Freepik from <a href="https://www.flaticon.es/" title="Flaticon" target="_blank"
+                    rel="noopener noreferrer"><u> www.flaticon.es</u></a></div>
+
+            Fuente: BricoGeek from <a href="https://blog.bricogeek.com/noticias/programacion/page/2/" target="_blank"
+                title="BricoGeek" rel="noopener noreferrer"> <u>www.bricogeek.com</u> </a>
+        </div>
+    </footer>
+</body>
+
+</html>
